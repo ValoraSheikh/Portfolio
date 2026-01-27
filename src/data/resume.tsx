@@ -11,6 +11,8 @@ import { TailwindCSS } from "@/components/ui/svgs/tailwindcss";
 import { AWS } from "@/components/ui/svgs/aws";
 import { GitHub } from "@/components/ui/svgs/github";
 import { Cpp } from "@/components/ui/svgs/cpp";
+import { Redis } from "@/components/ui/svgs/redis";
+import { GraphQL } from "@/components/ui/svgs/graphql";
 
 export const DATA = {
   name: "Sheikh",
@@ -36,6 +38,8 @@ export const DATA = {
     { name: "C++", icon: Cpp },
     { name: "Docker", icon: Docker },
     { name: "Postgres", icon: Postgresql },
+    { name: "Redis", icon: Redis },
+    { name: "GraphQL", icon: GraphQL },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },

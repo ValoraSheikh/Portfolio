@@ -28,40 +28,26 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
     images: [
       {
         url: DATA.avatarUrl,
-        width: 1200,
-        height: 630,
+        width: 800,
+        height: 800,
         alt: DATA.name,
       },
     ],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
   twitter: {
-    title: `${DATA.name}`,
     card: "summary_large_image",
-    images: [DATA.avatarUrl],
-  },
-  verification: {
-    google: "",
-    yandex: "",
+    title: DATA.name,
+    description: DATA.description,
+    images: [DATA.avatarUrl], 
   },
 };
 
