@@ -188,7 +188,7 @@ export const DATA = {
         },
       ],
       image:
-        "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769579929/Gemini_Generated_Image_9tntjv9tntjv9tnt_1_cozgfd.png",
+        "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769593052/nodebase_ya9f4r.png",
       video: "",
     },
   ],
