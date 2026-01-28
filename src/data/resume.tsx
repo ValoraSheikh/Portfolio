@@ -110,7 +110,8 @@ export const DATA = {
       school: "Self-Taught Software Engineering",
       href: "#",
       degree: "Full-stack development (Next.js, MongoDB, PostgreSQL, Node.js)",
-      logoUrl: "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769507822/deep-learning_raohzf.png",
+      logoUrl:
+        "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769507822/deep-learning_raohzf.png",
       start: "2023",
       end: "Present",
     },
@@ -167,26 +168,27 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Ultimate Stationery (vision)",
+      title: "Nodebase",
       href: "#",
       dates: "Ongoing",
       active: false,
       description:
-        "Long-term goal: build the definitive stationery marketplace — multi-tenant, custom pricing, and supremely fast UX.",
-      technologies: ["Next.js", "MongoDB", "Stripe"],
+        "Build a production-grade workflow automation platform with speed, control, and extensibility at its core.",
+      technologies: ["Next.js", "PostgreSQL", "Polar", ""],
       links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://magicui.design",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/ValoraSheikh/Nodebase",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image:
+        "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769579929/Gemini_Generated_Image_9tntjv9tntjv9tnt_1_cozgfd.png",
       video: "",
     },
   ],
