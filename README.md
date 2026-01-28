@@ -1,47 +1,71 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Portfolio | Sheikh
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+![Portfolio Preview](https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769590649/54272923-e454-4ff3-9cc5-76bfede733c1.png)
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## 👋 About Me
 
-# Features
+> **Full-stack developer & founder.** > I build product-first web apps from prototype to production. Ship weekly, learn fast.
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+I’m a self-taught full-stack developer specializing in **Next.js** and **MongoDB**. I focus on building scalable web applications and rapid prototyping. Recently, I launched [StationeryWala](https://www.stationerywala.shop) and am currently building Trible and Zappotel.
 
-# Getting Started Locally
+📍 **Location**: India  
+🌐 **Portfolio**: [amansheikh.in](https://amansheikh.in)
 
-1. Clone this repository to your local machine:
+---
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+## 🛠️ Tech Stack
 
-2. Move to the cloned directory
+**Frontend & Frameworks** ![Next.js](https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 
-   ```bash
-   cd portfolio
-   ```
+**Backend & Database** ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 
-3. Install dependencies:
+**DevOps & Tools** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
 
-   ```bash
-   pnpm install
-   ```
+---
 
-4. Start the local Server:
+## 🚀 Featured Projects
 
-   ```bash
-   pnpm dev
-   ```
+### [StationeryWala](https://www.stationerywala.shop/)
+**Founder & Full-stack Developer** | *Jan 2026 - Present*
+* An affordable stationery e-commerce platform.
+* **Tech**: Next.js, Node.js, MongoDB, TailwindCSS, PhonePe Integration.
+* **Status**: 🟢 Live & Scaling.
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+### [Trible / Zappotel](https://amansheikh.in/#projects)
+**Founder** | *Feb 2026 - Present*
+* Early-stage SaaS offering focused on industry-specific workflows.
+* **Tech**: Next.js, TypeScript, MongoDB.
+* **Status**: 🟡 In Progress (Prototyping).
 
-# License
+### [Nodebase](https://github.com/ValoraSheikh/Nodebase)
+**Developer** | *Ongoing*
+* Production-grade workflow automation platform focused on speed and extensibility.
+* **Tech**: Next.js, PostgreSQL, Polar.
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+---
+
+## 💼 Experience
+
+| Company | Role | Date |
+| :--- | :--- | :--- |
+| **StationeryWala** | Founder & Full-stack Developer | Jan 2026 - Present |
+| **Trible / Zappotel** | Founder | Feb 2026 - Present |
+
+---
+
+## 📫 Connect
+
+* **Twitter/X**: [@amansheikhkhan](https://x.com/amansheikhkhan)
+* **LinkedIn**: [Aman Sheikh](https://www.linkedin.com/in/valorant-aman-238a73335/)
+* **Email**: [hello@aman.dev](mailto:hello@aman.dev)
+
+---
