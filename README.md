@@ -1,4 +1,4 @@
-# Portfolio | Aman Sheikh
+# Portfolio | Sheikh
 
 ![Portfolio Preview](https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769590649/54272923-e454-4ff3-9cc5-76bfede733c1.png)
 
