@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: DATA.ogImageUrl,
+        url: "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg",
         width: 800,
         height: 800,
         alt: DATA.name,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    images: [DATA.ogImageUrl],
+    images: ["https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpgs"],
   },
 };
 
