@@ -26,6 +26,8 @@ export const DATA = {
     "I’m a self-taught full-stack developer (Next.js + MongoDB) who builds product-first web apps from prototype to production. Launched [StationeryWala (Jan 26, 2026)](https://www.stationerywala.shop); building [Trible](/#projects) and [Zappotel](/#projects). I handle [payments, file uploads, admin dashboards, deployments](/xyz) and publish progress on [LinkedIn/X](/#links).",
   avatarUrl:
     "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg",
+  ogImageUrl:
+    "https://res.cloudinary.com/dzh0fn9uv/image/upload/w_1200,h_630,c_fill,q_auto/v1769503156/champ_phnnxt.jpg",
   skills: [
     { name: "Next.js", icon: NextjsIconDark },
     { name: "React", icon: ReactLight },

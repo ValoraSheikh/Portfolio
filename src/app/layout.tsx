@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: DATA.avatarUrl,
+        url: DATA.ogImageUrl,
         width: 800,
         height: 800,
         alt: DATA.name,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    images: [DATA.avatarUrl],
+    images: [DATA.ogImageUrl],
   },
 };
 
