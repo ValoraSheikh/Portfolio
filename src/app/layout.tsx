@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(DATA.url),
+  metadataBase: new URL("https://amansheikh.in"),
   title: {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
@@ -32,15 +32,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: DATA.name,
     description: DATA.description,
-    url: DATA.url,
+    url: "https://amansheikh.in",
     siteName: DATA.name,
     locale: "en_US",
     type: "website",
     images: [
       {
         url: "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg",
-        width: 800,
-        height: 800,
+        width: 1200,
+        height: 630,
         alt: DATA.name,
       },
     ],
@@ -49,7 +49,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    images: ["https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg"],
+    images: [
+      "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg",
+    ],
   },
 };
 
