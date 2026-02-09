@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    images: ["https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpgs"],
+    images: ["https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg"],
   },
 };
 
