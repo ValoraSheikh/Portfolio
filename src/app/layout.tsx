@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://amansheikh.in"),
+  metadataBase: new URL(DATA.url),
   title: {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: DATA.name,
     description: DATA.description,
-    url: "https://amansheikh.in",
+    url: DATA.url,
     siteName: DATA.name,
     locale: "en_US",
     type: "website",
@@ -49,9 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: DATA.name,
     description: DATA.description,
-    images: [
-      "https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg",
-    ],
+    images: ["https://res.cloudinary.com/dzh0fn9uv/image/upload/v1769503156/champ_phnnxt.jpg"],
   },
 };
 
@@ -86,8 +84,6 @@ export default function RootLayout({
             <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
               {children}
             </div>
-            <SpeedInsights />
-            <Analytics />
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
